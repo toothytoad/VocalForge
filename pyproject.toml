@@ -24,14 +24,14 @@ classifiers = [
 
 
 dependencies = [
-    'joblib==1.2.0',
-    'natsort==8.2.0',
-    'numpy==1.23.2',
+    'joblib',
+    'natsort',
+    'numpy',
     'pydub',
-    'pandas==1.4.3',
-    'regex==2022.10.31',
-    'scipy==1.10.1',
-    'tqdm==4.64.1',
+    'pandas',
+    'regex',
+    'scipy',
+    'tqdm',
     'hydra-core'
 ]
 
@@ -46,8 +46,8 @@ audio = [
 
 text = [
         'ctc_segmentation',
-        'nemo_toolkit[all]==1.18.1',
-        'num2words==0.5.12',
+        'nemo_toolkit[all]',
+        'num2words',
         'openai_whisper',
         'whisper',
 ]
